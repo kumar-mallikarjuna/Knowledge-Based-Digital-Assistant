@@ -35,7 +35,7 @@ public class Main {
 
 		try{
 
-			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/Jarvis","root","tremezone");
+			Connection connection = DriverManager.getConnection("","root","");
 			Statement statement = connection.createStatement();
 
 			while(true){
